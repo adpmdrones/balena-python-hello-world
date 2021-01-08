@@ -1,3 +1,2 @@
 Flask==0.12.3
 Pip==20.3.1
-pymavlink>=2.2.20
