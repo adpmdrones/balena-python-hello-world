@@ -16,6 +16,7 @@ COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 RUN apt-get update
 RUN apt-get install gcc python3-dev libxml2-dev libxslt-dev
+RUN pip install --upgrade future lxml
 
 # This will copy all files in our root to the working  directory in the container
 COPY . ./
